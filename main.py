@@ -3,7 +3,7 @@ import random
 import tkinter as tk
 import threading
 import time
-from data_generator import PromoterDatasetGenerator
+from promoter_generator import PromoterDatasetGenerator
 from neural_network import NeuralNetwork
 
 class NetworkVisualizer(tk.Tk):
